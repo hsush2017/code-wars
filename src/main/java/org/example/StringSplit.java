@@ -1,4 +1,4 @@
-package org.example.split_strings;
+package org.example;
 
 import java.util.ArrayList;
 import java.util.List;

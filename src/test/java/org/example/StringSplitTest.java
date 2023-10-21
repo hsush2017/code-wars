@@ -1,4 +1,4 @@
-package org.example.split_strings;
+package org.example;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -26,6 +26,6 @@ public class StringSplitTest {
     @Test
     public void testOddString() {
         input = "LovePizza";
-        assertEquals("Should handle odd string","[Lo, ve, Pi, zz, a_]", Arrays.toString(sut.solution(input)));
+        assertEquals("Should handle odd string", "[Lo, ve, Pi, zz, a_]", Arrays.toString(sut.solution(input)));
     }
 }
