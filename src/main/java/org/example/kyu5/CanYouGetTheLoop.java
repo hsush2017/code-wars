@@ -1,8 +1,9 @@
-package org.example;
+package org.example.kyu5;
 
 import java.util.ArrayList;
 import java.util.List;
 
+// https://www.codewars.com/kata/52a89c2ea8ddc5547a000863
 public class CanYouGetTheLoop {
     interface Node {
         Node getNext();

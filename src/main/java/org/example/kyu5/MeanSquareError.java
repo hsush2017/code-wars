@@ -1,7 +1,8 @@
-package org.example;
+package org.example.kyu5;
 
 import java.util.stream.IntStream;
 
+// https://www.codewars.com/kata/51edd51599a189fe7f000015
 public class MeanSquareError {
     public double solution(int[] arr1, int[] arr2) {
         double sum = IntStream.range(0, arr1.length)

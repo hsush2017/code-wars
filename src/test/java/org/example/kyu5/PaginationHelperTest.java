@@ -1,4 +1,4 @@
-package org.example;
+package org.example.kyu5;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Before;

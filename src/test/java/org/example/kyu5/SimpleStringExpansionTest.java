@@ -1,4 +1,4 @@
-package org.example;
+package org.example.kyu5;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -20,16 +20,16 @@ public class SimpleStringExpansionTest {
 
     @Test
     public void test2() {
-        assertEquals("abbbabbb",sut.solve("2(a3(b))"));
+        assertEquals("abbbabbb", sut.solve("2(a3(b))"));
     }
 
     @Test
     public void test3() {
-        assertEquals("bccbccbcc",sut.solve("3(b(2(c)))"));
+        assertEquals("bccbccbcc", sut.solve("3(b(2(c)))"));
     }
 
     @Test
     public void test4() {
-        assertEquals("kabaccbaccbacc",sut.solve("k(a3(b(a2(c))))"));
+        assertEquals("kabaccbaccbacc", sut.solve("k(a3(b(a2(c))))"));
     }
 }

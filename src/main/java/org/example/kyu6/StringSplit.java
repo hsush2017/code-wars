@@ -1,8 +1,9 @@
-package org.example;
+package org.example.kyu6;
 
 import java.util.ArrayList;
 import java.util.List;
 
+// https://www.codewars.com/kata/515de9ae9dcfc28eb6000001
 public class StringSplit {
     public String[] solution(String s) {
         if (s.length() % 2 > 0) {

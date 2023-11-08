@@ -1,5 +1,6 @@
-package org.example;
+package org.example.kyu5;
 
+// https://www.codewars.com/kata/57eb8fcdf670e99d9b000272
 public class HighestScoringWord {
     public String high(String s) {
         String[] words = s.split(" ");

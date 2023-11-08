@@ -1,7 +1,9 @@
-package org.example;
+package org.example.kyu5;
 
 import java.util.List;
 
+
+// https://www.codewars.com/kata/515bb423de843ea99400000a
 public class PaginationHelper<I> {
     private final List<I> collection;
     private final int itemsPerPage;

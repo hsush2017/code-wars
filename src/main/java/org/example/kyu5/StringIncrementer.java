@@ -1,8 +1,9 @@
-package org.example;
+package org.example.kyu5;
 
 import java.math.BigDecimal;
 import java.util.Collections;
 
+// https://www.codewars.com/kata/54a91a4883a7de5d7800009c
 public class StringIncrementer {
     public String incrementString(String str) {
         String trailingNum = getTrailingNumber(str);

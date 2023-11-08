@@ -1,9 +1,10 @@
-package org.example;
+package org.example.kyu5;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+// https://www.codewars.com/kata/59437bd7d8c9438fb5000004
 public class AlphabetWars {
     public String alphabetWar(String battlefield) {
         if (!battlefield.contains("#")) {

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.kyu5;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -24,6 +24,6 @@ public class DirReductionTest {
     public void test2() {
         assertArrayEquals("\"NORTH\",\"SOUTH\",\"SOUTH\",\"EAST\",\"WEST\",\"NORTH\"",
                 new String[]{},
-                sut.dirReduc(new String[]{"NORTH","SOUTH","SOUTH","EAST","WEST","NORTH"}));
+                sut.dirReduc(new String[]{"NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"}));
     }
 }

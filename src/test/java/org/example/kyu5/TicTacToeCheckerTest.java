@@ -1,4 +1,4 @@
-package org.example;
+package org.example.kyu5;
 
 import org.junit.Before;
 import org.junit.Test;

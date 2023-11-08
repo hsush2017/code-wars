@@ -1,7 +1,8 @@
-package org.example;
+package org.example.kyu5;
 
 import java.util.Stack;
 
+// https://www.codewars.com/kata/526989a41034285187000de4
 public class CountIPAddresses {
     public long ipsBetween(String start, String end) {
         return count(end) - count(start);
@@ -13,7 +14,7 @@ public class CountIPAddresses {
         Stack<Integer> stack = convert(ip);
 
         while (!stack.isEmpty()) {
-            result += Math.pow(256, cnt++) * stack.pop();
+            result += (long) (Math.pow(256, cnt++) * stack.pop());
         }
 
         return result;

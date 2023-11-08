@@ -1,5 +1,6 @@
-package org.example;
+package org.example.kyu5;
 
+// https://www.codewars.com/kata/525caa5c1bf619d28c000335
 public class TicTacToeChecker {
     public int isSolved(int[][] board) {
         if (board[0][0] > 0 && (board[0][0] == board[0][1] && board[0][1] == board[0][2])) {
