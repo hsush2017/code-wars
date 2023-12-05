@@ -3,7 +3,6 @@ package org.example.kyu5;
 // https://www.codewars.com/kata/513e08acc600c94f01000001
 
 public class RGBToHex {
-
     public String rgb(int r, int g, int b) {
         return toHex(r) + toHex(g) + toHex(b);
     }
