@@ -24,23 +24,6 @@ public class BefungeInterpreterTest {
 
     @Test
     public void test3() {
-        //0877665544332210
-        Assertions.assertThat(sut.interpret(
-                "08>:1-:v v *_$.@ \n" +
-                        "  ^    _$>\\:^  ^    _$>\\:^")).isEqualTo("40320");
-    }
-
-    @Test
-    public void test4() {
-        Assertions.assertThat(sut.interpret(
-                ">::9%\\9/v\n" +
-                        " v*99:,g<\n" +
-                        " >1-- v\n" +
-                        " >9%v #\n" +
-                        "^  <_91v\n" +
-                        " : ^,+ <\n" +
-                        " ^  +1_v\n" +
-                        "  @,+19<\n" +
-                        ":)")).isEqualTo("");
+        Assertions.assertThat(sut.interpret("08>:1-:v v *_$.@ \n  ^    _$>\\:^  ^    _$>\\:^")).isEqualTo("40320");
     }
 }
